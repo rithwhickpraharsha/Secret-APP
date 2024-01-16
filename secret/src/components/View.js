@@ -14,7 +14,7 @@ export default function View(){
 
     useEffect(()=>{
      async function call(){
-      const get_categories =  await axios.get('https://secret-app-backend.onrender.com/secret/categories');
+      const get_categories =  await axios.get('http://localhost:5000/secret/categories');
       
       setConf(get_categories.data);
      }
