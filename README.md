@@ -26,13 +26,15 @@ Steps to clone and Use this repo:
   ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/35487861-dd29-4355-92d3-afd1da34fdd9)
 
  Your Secret
- ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/71c3117b-7ac6-43d9-bda6-f5fff362ceac)
+![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/777e01da-c005-4f03-b156-7387c466e233)
+
+
   category wise secrets:
   this is displayed when we click the category on home page
  ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/ccf81dbb-ca66-40a9-9722-11faa6345ce2)
+![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/cac67b25-6f25-4e4b-b11c-4a10f885ec77)
+![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/5060ff9d-b49b-4161-a889-ca2a39b79da5)
 
-![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/c0351fb0-b726-4f19-b820-5a3b34b7fa42)
- ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/a1ec7cc2-dfeb-4523-8f45-f8b3c77e80c3)
 
 
 
