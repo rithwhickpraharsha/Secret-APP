@@ -9,7 +9,7 @@ export default function Category(){
     useEffect(()=>{
         async function getSecret(){
             try{
-         const res = await axios.post("http://localhost:5000/secret/show/category",{category:title});
+         const res = await axios.post("https://secret-app-backend.onrender.com/secret/show/category",{category:title});
          setSecrets(res.data);
             }
             catch(err){

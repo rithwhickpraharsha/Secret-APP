@@ -10,7 +10,7 @@ export default function Post(){
   async function Submit(e){
     e.preventDefault();
     try{
-        await axios.post('http://localhost:5000/secret/add',{token:localStorage.getItem('secret-app'),category:category.toLowerCase(),secret:secret});
+        await axios.post('https://secret-app-backend.onrender.com/secret/add',{token:localStorage.getItem('secret-app'),category:category.toLowerCase(),secret:secret});
         navigate("/App/Your-secret");   
 
     }catch(e){

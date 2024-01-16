@@ -9,7 +9,9 @@ const secret_model = require("./models.js/secret");
 const {userParse,secretParse} = require("./inputEvalution");
 const dotenv = require('dotenv');
 dotenv.config();
-app.use(cors());
+app.use(cors({
+    origin:"https://secret-app-e67y.onrender.com/"
+}));
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
