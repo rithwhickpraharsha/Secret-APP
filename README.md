@@ -15,15 +15,15 @@ Steps to clone and Use this repo:
     Intially when the page is rendered after entering credentials in signup ...if you are not rendered to home page ..please enter the credentials again
 12. here is the preview of all the features
 13. login page
-14. ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/c56cbf08-6ee7-4fe2-bce2-48fecf2f7ee3)
-15. signup page
-16.![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/a1d84252-6580-4852-bf03-92382b21d2e2)
+   ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/c56cbf08-6ee7-4fe2-bce2-48fecf2f7ee3)
+ signup page
+![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/a1d84252-6580-4852-bf03-92382b21d2e2)
 
-17. home page
-18. ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/6a70ac55-daaf-402f-8298-fb35abc44b55)
+ home page
+ ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/6a70ac55-daaf-402f-8298-fb35abc44b55)
 
-19. Post
-20. ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/35487861-dd29-4355-92d3-afd1da34fdd9)
+ Post
+  ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/35487861-dd29-4355-92d3-afd1da34fdd9)
 
  Your Secret
  ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/71c3117b-7ac6-43d9-bda6-f5fff362ceac)
