@@ -9,7 +9,7 @@ export default function Login(){
     async function Submit(){
         //console.log(email+" "+Password);
         try{
-           const token =  await axios.post('http://localhost:5000/user/login',{user:email,password:Password});
+           const token =  await axios.post('https://secret-app-gamma.vercel.app/user/login',{user:email,password:Password});
            localStorage.setItem('secret-app',token.data);
            navigate('/App');
         }
