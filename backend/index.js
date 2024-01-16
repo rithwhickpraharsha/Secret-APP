@@ -10,9 +10,7 @@ const {userParse,secretParse} = require("./inputEvalution");
 const dotenv = require('dotenv');
 dotenv.config();
 app.use(cors({
-    origin:[],
-    methods:["POST","GET","PUT"],
-    credentials:true
+    origin: "http://localhost:3000"
 }));
 app.use(bodyParser.json());
 
