@@ -12,7 +12,7 @@ export default function Signup(){
       if(Confirm === Password){
        
         try{
-           const token =  await axios.post('https://secret-app-gamma.vercel.app/user/signup',{user:email,password:Password});
+           const token =  await axios.post('http://localhost:5000/user/signup',{user:email,password:Password});
            localStorage.setItem('secret-app',token.data);
            navigate('/App');
            
