@@ -25,6 +25,9 @@ console.log("Mongo Db successFull");
 catch(err){
     console.log(err);
 }
+app.get("/",(req,res)=>{
+    res.send("Hello");
+})
 //routes for secrets
 app.post('/secret/add',async(req,res)=>{
    
