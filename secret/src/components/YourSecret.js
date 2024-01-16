@@ -11,7 +11,7 @@ const [secret,setSecret] = useState([]);
 async function Remove(){
     try{
         const token= localStorage.getItem('secret-app');
-      await axios.post('http://localhost:5000/secret/remove',{token:token});
+      await axios.post('https://secret-app-backend.onrender.com/secret/remove',{token:token});
     }
     catch(e){
         console.log(e);
@@ -23,7 +23,7 @@ useEffect(()=>{
     async function show(){
         const token= localStorage.getItem('secret-app');
         if(!token)navigate("/");
-        const data = await axios.post('http://localhost:5000/secret/show/user',{token:token});
+        const data = await axios.post('https://secret-app-backend.onrender.com/secret/show/user',{token:token});
 
         setSecret(data.data);
     }
