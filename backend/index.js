@@ -10,7 +10,7 @@ const {userParse,secretParse} = require("./inputEvalution");
 const dotenv = require('dotenv');
 dotenv.config();
 app.use(cors({
-    origin:"https://secret-app-e67y.onrender.com",
+    origin:["https://secret-app-e67y.onrender.com","https://secret-app-frontend.vercel.app"],
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }));
