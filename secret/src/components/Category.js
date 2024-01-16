@@ -32,7 +32,7 @@ export default function Category(){
         {
         secrets.map((x,i)=>{
          return (
-        <div className="h-24 w-auto overflow-auto bg-dark-blue text-white border border-green my-5">
+        <div className="h-24 w-auto overflow-auto bg-dark-blue text-white border border-green my-5 px-2">
             {x}
             </div>
             )

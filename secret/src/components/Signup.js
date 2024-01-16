@@ -13,8 +13,11 @@ export default function Signup(){
        
         try{
            const token =  await axios.post('http://localhost:5000/user/signup',{user:email,password:Password});
+           
            localStorage.setItem('secret-app',token.data);
+           console.log(token);
            navigate('/App');
+          
            
         }
         catch(e){

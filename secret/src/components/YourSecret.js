@@ -39,10 +39,10 @@ return(
        <div className="flex flex-row justify-end"> <button className="h-5 md:h-7 lg:h-10 text-white hover:bg-red hover:text-black   bg-dark-blue px-[2vh] mr-[1vh] border border-purple" onClick={(e)=>{Remove()}}>delete</button><button className="h-5 md:h-7 lg:h-10  text-white hover:bg-red hover:text-black   bg-dark-blue  px-[2vh] border border-purple" onClick={()=>{localStorage.removeItem('secret-app'); navigate("/")}}>Logout</button></div>
         {
         secret.map((x,i)=>{
-         return (<div className="h-auto w-auto bg-dark-blue my-5">
+         return (<div className="h-auto w-auto bg-dark-blue my-5 ">
             <h1 className="text-white text-xl md:text-2xl lg:text-5xl flex justify-center border border-green h-8 md:h-12 lg:h-16 overflow-auto">{x.category}</h1>
 
-            <h1 className="text-white text-xl md:text-2xl lg:text-3xl my-2 border border-green h-48 md:h-36 sm:h-24 overflow-auto">{x.secret}</h1>
+            <h1 className="text-white text-xl md:text-2xl lg:text-3xl my-2 border border-green h-48 md:h-36 sm:h-24 overflow-auto px-2">{x.secret}</h1>
 
             </div>)
         })
