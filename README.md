@@ -1,4 +1,4 @@
-#While using deployed website if after signup or login it doesnt redirect to home page ..please enter credentials again
+# While using deployed website if after signup or login it doesnt redirect to home page ..please enter credentials again
 
 # SECRET-APP
 
