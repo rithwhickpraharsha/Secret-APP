@@ -33,7 +33,8 @@ Steps to clone and Use this repo:
 
   category wise secrets:
   this is displayed when we click the category on home page
- ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/ccf81dbb-ca66-40a9-9722-11faa6345ce2)
+ contains different categories containing secrets
+![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/ccf81dbb-ca66-40a9-9722-11faa6345ce2)
 ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/cac67b25-6f25-4e4b-b11c-4a10f885ec77)
 ![image](https://github.com/rithwhickpraharsha/Secret-APP/assets/92135998/5060ff9d-b49b-4161-a889-ca2a39b79da5)
 
