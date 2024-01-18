@@ -8,6 +8,7 @@ export default function Signup(){
    const [Confirm,setConfirm] = useState('');
    const navigate = useNavigate();
     async function Submit(e){
+      e.preventDefault();
      
       if(Confirm === Password){
        
@@ -20,9 +21,9 @@ export default function Signup(){
           
            
         }
-        catch(e){
-          alert(e.response.data);
-          console.log(e);
+        catch(err){
+          alert(err.response.data);
+          console.log(err);
         }
       }
       else{
