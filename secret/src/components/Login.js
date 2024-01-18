@@ -9,6 +9,7 @@ export default function Login(){
     async function Submit(e){
         //console.log(email+" "+Password);
         e.preventDefault();
+        setTitle('Loading')
         try{
            const token =  await axios.post('https://secret-app-backend.onrender.com/user/login',{user:email,password:Password});
            localStorage.setItem('secret-app',token.data);
@@ -17,6 +18,7 @@ export default function Login(){
         catch(err){
            alert(err.response.data);
            console.log(err);
+           setTitle('Login'); 
         }
       }
       useEffect(()=>{
@@ -31,7 +33,7 @@ export default function Login(){
         console.log(e);
      }
      },[]);
-
+  const [Title,setTitle] = useState('Login');
     return(
         <section class="bg-black h-screen">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 ">
@@ -62,7 +64,7 @@ export default function Login(){
                               <label for="terms" class="font-light text-gray-500 dark:text-gray-300">I accept the <a class="font-medium text-primary-600 hover:underline dark:text-primary-500" href="#">Terms and Conditions</a></label>
                             </div>
                         </div>
-                        <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" onClick={(e)=>{Submit(e)}}>Login</button>
+                        <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" onClick={(e)=>{Submit(e)}}>{Title}</button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                             Dont have Account <Link to = "/signup" class="font-medium text-black hover:underline dark:text-primary-500">Sign up</Link>
                         </p>
